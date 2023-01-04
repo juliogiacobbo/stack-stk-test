@@ -1,0 +1,36 @@
+{
+  "stack_name": "stack-stk-test",
+  "stack_type": "local",
+  "stack_path": "/Users/julio.souza/stacklifecycle-oscli-test-catalog",
+  "stack_remote": [
+    {
+      "name": "origin",
+      "url": "https://github.com/stack-spot/stacklifecycle-oscli-test-catalog",
+      "operation": "fetch"
+    },
+    {
+      "name": "origin",
+      "url": "https://github.com/stack-spot/stacklifecycle-oscli-test-catalog",
+      "operation": "push"
+    }
+  ],
+  "plugins": {
+    "global-computed-input-plugin": {
+      "description": "Plugin that uses a global-computed-input",
+      "types": [
+        "app"
+      ],
+      "path": "C:\\Users\\julio\\stack-stk-test\\global-computed-input-plugin",
+      "latest_version": "Sem release"
+    },
+    "global-computed-input-template": {
+      "description": "Template that uses a global-computed-input",
+      "types": [
+        "app-template"
+      ],
+      "path": "C:\\Users\\julio\\stack-stk-test\\global-computed-input-template",
+      "latest_version": "Sem release"
+    }
+  },
+  "tasks": {}
+}

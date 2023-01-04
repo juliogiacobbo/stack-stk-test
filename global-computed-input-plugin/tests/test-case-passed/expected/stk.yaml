@@ -1,0 +1,11 @@
+applied_templates:
+- inputs:
+    project_name: testStack
+  template_data_path: stacklifecycle-oscli-test-catalog/global-computed-input-template
+- inputs: {}
+  template_data_path: stacklifecycle-oscli-test-catalog/global-computed-input-plugin
+global_computed_inputs:
+  global_computed_input: Teststack
+global_inputs: {}
+stack: stacklifecycle-oscli-test-catalog
+stack_type: app
